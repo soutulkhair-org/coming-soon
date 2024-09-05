@@ -9,7 +9,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "yarn build && netlify deploy --prod",
+    "deploy": "yarn build && netlify deploy",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
